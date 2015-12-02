@@ -1,0 +1,33 @@
+{
+  "name": "cloudslang-cli",
+  "version": "1.0.0",
+  "description": "\"The CloudSlang command line interface.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudSlang/cloudslang-cli.git"
+  },
+  "keywords": [
+    "slang",
+    "cli",
+    "command-line",
+    "slang",
+    "cloudslang"
+  ],
+  "author": "\"slang\",",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CloudSlang/cloudslang-cli/issues"
+  },
+    "dependencies": {
+	"request": "*",
+	"adm-zip": "*",
+	"wrench" : "*"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/CloudSlang/cloudslang-cli#readme"
+
+}
