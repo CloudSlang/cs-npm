@@ -1,12 +1,31 @@
-# cloudslang-cli
-This is the npm package for CloudSlang command line.
+# cslang-cli
 
-Update version steps:
+<img align="right" src="http://www.cloudslang.io/images/logos/CloudSlang_logo.84128a6d.png">
 
-1. Update field "version" in "package.js" file.
-2. Update link to the new zip in "index.js" file.
-3. Open cmd and connect to our user by using the command: npm login
-   Username:
-   Password:
-4. Enter from cmd to the repository folder "cloudslang-cli"
-5. Run the command: npm publish
+> The CloudSlang command line interface.
+
+Install this globally and you'll have access to the `cslang` command anywhere on your system.
+
+```shell
+npm install -g cslang-cli
+```
+
+Now you can just use the `cslang` command anywhere
+
+```shell
+cslang
+```
+
+Refer to [CloudSlang](http://cloudslang.io) website for more information.
+
+# Prerequisite
+Node.js & Java installed.
+
+CloudSlang page in the [NPM repository](https://www.npmjs.com/~cloudslang).
+
+## Linux issues
+It might be needed to run npm like the following:
+
+```shell
+sudo npm install -g cslang-cli
+```
