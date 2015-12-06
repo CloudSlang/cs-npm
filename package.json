@@ -1,6 +1,6 @@
 {
   "name": "cloudslang-cli",
-  "version": "0.9.1",
+  "version": "2.0.7",
   "description": "\"The CloudSlang command line interface.\"",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,9 @@
     "slang",
     "cloudslang"
   ],
-   "bin": {
-    "cslang": "cslang/slang/bin/cslang"
+  "preferGlobal": true,
+  "bin": {
+    "cslang": "./run_cslang_batch.bat"
   },
   "author": "\"slang\",",
   "license": "Apache-2.0",
@@ -30,7 +31,6 @@
 	"adm-zip": "*",
 	"wrench" : "*"
   },
-  "preferGlobal": true,
   "homepage": "https://github.com/CloudSlang/cloudslang-cli#readme",
   "scripts" : { 
   	"postinstall" : "node index.js"
