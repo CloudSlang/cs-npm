@@ -31,8 +31,8 @@
 	"wrench" : "*"
   },
   "preferGlobal": true,
-    "scripts" : { 
-	"postinstall" : "node index.js"
+  "homepage": "https://github.com/CloudSlang/cloudslang-cli#readme",
+  "scripts" : { 
+  	"postinstall" : "node index.js"
   }
-  "homepage": "https://github.com/CloudSlang/cloudslang-cli#readme"
 }
