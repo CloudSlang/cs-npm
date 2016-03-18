@@ -8,7 +8,7 @@ var request = require("request");
 var AdmZip = require('adm-zip');
 var wrench = require("wrench");
 
-var cslangCliUrl = 'https://github.com/CloudSlang/cloud-slang/releases/download/cloudslang-0.9.50.RC1/cslang-cli.zip';
+var cslangCliUrl = 'https://github.com/CloudSlang/cloud-slang/releases/download/cloudslang-0.9.50.0/cslang-cli.zip';
 var cslangZip = 'cslang-cli.zip';
 var cslangFolder = 'cloudslang-cli';
 
