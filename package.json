@@ -1,6 +1,6 @@
 {
   "name": "cloudslang-cli",
-  "version": "2.0.8",
+  "version": "2.0.10",
   "description": "\"The CloudSlang command line interface.\"",
   "main": "index.js",
   "scripts": {
