@@ -1,6 +1,6 @@
 {
   "name": "cloudslang-cli",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "\"The CloudSlang command line interface.\"",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudSlang/cloudslang-cli.git"
+    "url": "git+https://github.com:CloudSlang/cs-npm.git"
   },
   "keywords": [
-    "slang",
+    "orchestrator",
     "cli",
     "command-line",
-    "slang",
-    "cloudslang"
+    "cslang",
+    "cloudslang",
+    "cloud",
+    "automation"	  
   ],
   "preferGlobal": true,
   "bin": {
@@ -31,7 +33,7 @@
 	"adm-zip": "*",
 	"wrench" : "*"
   },
-  "homepage": "https://github.com/CloudSlang/cloudslang-cli#readme",
+  "homepage": "https://github.com/CloudSlang/cs-npm#readme",
   "scripts" : { 
   	"postinstall" : "node index.js"
   }
