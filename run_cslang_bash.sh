@@ -1,5 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-cd `dirname $0`
-SCRIPTDIR=`pwd`
-sh $SCRIPTDIR/cloudslang-cli/cslang-cli/bin/cslang
+SCRIPTDIR=`whereis node_modules | awk '{print $NF}'`
+$SCRIPTDIR/cloudslang-cli/cloudslang-cli/cslang-cli/bin/cslang
